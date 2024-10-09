@@ -1,0 +1,8 @@
+print("");print("Martinez Fernandez Alan Steven");print("")
+i=str(input("coloca -imprime hey amigos- para que te lo imprima "));print("")#define como str hace posible aignar un valor separa y da una instruccin
+while i=="repitelo" or i=="di hey amigos" or i=="repitelo de nuevo" or "otra vez" or i=="dime hola amigos" or i=="imprime hey amigos":#si se cumple cualquiera de estas condiciones se seguira reoitiendo
+    def s():#funcion de s
+        print("Hey amigos!")#imprime hey amigos desde la funcion
+    s()#la funcion de s
+    i=str(input("coloca alguno de estos:-repitelo- -di hey amigos- -repitelo de nuevo- -otra vez- -dime hola amigos- para que lo diga de nuevo "));print("")#define como str hace posible aignar un valor separa y da una instruccin
+    # colocar la funcion a la función
