@@ -1,0 +1,11 @@
+def fac(cn, p):#funcion de fac
+    # Calcular el monto del IVA
+    m=cn*(p / 100)#sub proceso de la factorial
+    # Calcular el total de la factura
+    t=cn+m#sub proceso de la factorial
+    return t
+#resultados
+cn=float(input("coloca la cntidad para obtener el IVA "));print("")#define n como int hace posible modificarlo y separa y indica cuando
+p = 16  # Porcentaje de IVA a aplicar
+t=fac(cn, p)#"t" es igual a "fac(cn,p)"
+print(f"El total de la factura con IVA es: {t}")#imprime el resultado
