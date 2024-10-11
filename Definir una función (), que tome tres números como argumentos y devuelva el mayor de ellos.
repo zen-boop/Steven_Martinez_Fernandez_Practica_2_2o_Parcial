@@ -1,0 +1,12 @@
+def m(a,b,c):#funcion de "m(a,b,c)"
+    if a >= b and a >= c:#si "a" es igual o mayor que "b" y "c" se realiza lo de abajo
+        return a#regreza a
+    elif b >= a and b >= c:#si "b" es mayor o igual a "a" y "c" se realiza lo de abajo
+        return b#regreza b
+    else:#en caso de algo mas se realiza lo de abajo
+        return c#regreza a "c"
+print("coloca 3 numeros para descubrir cual es el mayor")#da una instruccion
+n1=int(input("coloca el numero "));print("")#define como int hace posible asignar un valor separa y da una instruccin
+n2=int(input("coloca el numero "));print("")#define como int hace posible asignar un valor separa y da una instruccin
+n3=int(input("coloca el numero "));print("")#define como int hace posible asignar un valor separa y da una instruccin
+print(m(n1, n2, n3))#imprime el resultado
