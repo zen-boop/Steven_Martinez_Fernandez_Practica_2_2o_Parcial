@@ -1,0 +1,6 @@
+def s1(n):#funciom de s1 en n
+    s2=f"¡Hola, {n}!"#hace el sub proceso la f hace posible realizar operaciones
+    return s2#regresa a s2
+# Ejemplo de uso
+n =str(input("coloca tu nombre "))#define n como str hace posible modificarlo y indica cuando
+print(s1(n))#imprime el resultado
