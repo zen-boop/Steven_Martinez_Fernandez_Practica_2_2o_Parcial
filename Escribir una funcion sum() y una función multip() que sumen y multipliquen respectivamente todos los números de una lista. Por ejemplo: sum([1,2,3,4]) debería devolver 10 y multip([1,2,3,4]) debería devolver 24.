@@ -1,0 +1,19 @@
+def sum(l):#funcion de "sum(l)"
+    t=0#hace que el total sea 0
+    for n in l:#mientas "n" este en "l" se repetira
+        t+=n#suma "t" y "n"
+    return t#regresa la t
+def multip(l):#funcion de "multip(l)"
+    t=1#"t" vale 1
+    for n in l:#mientra "n" este en l se repetira
+        t*=n#se realiza la multiplicaccion
+    return t#regresa t
+ns=[]#hace una lista
+n1=float(input("Introduce el primer número: "))#define como float hace posible asignar un valor y da una instruccin
+ns.append(n1)#añade el primer numero a la lista
+n2=float(input("Introduce el segundo número: "))#define como float hace posible asignar un valor y da una instruccin
+ns.append(n2)#añade el segundo numero a la lista
+n3=float(input("Introduce el tercer número: "))#define como float hace posible asignar un valor y da una instruccin
+ns.append(n3)#añade el tercer numero a la lista
+print(sum(ns)) #imprime la suma
+print(multip(ns)) #imprime la multiplicasion
