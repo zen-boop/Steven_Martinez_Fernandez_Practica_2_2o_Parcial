@@ -1,0 +1,8 @@
+def f(n):#funcion de "f" en "n"
+    if n==0:#si "n" es igual a 0 se raliza la instruccion
+        return 1#regresa a 1
+    else:#en caso de que no se cumpla se realizara esto
+        return n*f(n - 1)#se realiza la operacion de la funcion "f#"
+# Ejemplo de uso
+n=int(input("coloca el numero "));print("")#define n como int hace posible modificarlo separa y indica cuando
+print(f"El factorial de {n} es {f(n)}")#imprime el resultado la f sirve para realizar operaciones adentro del print sin que afecte a este con los {}
