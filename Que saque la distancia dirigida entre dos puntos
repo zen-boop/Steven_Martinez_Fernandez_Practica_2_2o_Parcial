@@ -1,0 +1,11 @@
+import math#importa math que hace posuble usar funciones matematicas como PI
+def dp(x1, y1, x2, y2):
+    # Calcular la distancia usando la fórmula de la distancia euclidiana
+    d=math.sqrt((x2 - x1)**2 + (y2 - y1)**2)#realiza la operacion y el math sqrt saca raiz cuadrada
+    return d#regresa d
+print("coloca valores para obtenrer la distancia entre 2 puntos")#da una instruccion
+x1=int(input("coloca el valor de x1 "));print("")#define como int hace posible modificarlo separa y da una instruccion
+y1=int(input("coloca el valor de y1 "));print("")#define como int hace posible modificarlo separa y da una instruccion
+x2=int(input("coloca el valor de x2 "));print("")#define como int hace posible modificarlo separa y da una instruccion
+y2=int(input("coloca el valor de y2 "));print("")#define como int hace posible modificarlo separa y da una instruccion
+print(f"La distancia entre los puntos ({x1}, {y1}) y ({x2}, {y2}) es: {dp(x1, y1, x2, y2)}")#imprime el resultado y gracias a la f puene numeros adentro del texto con los {}
