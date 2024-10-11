@@ -1,0 +1,8 @@
+def lp(s):#funcion de "lp(s)"
+    s=s.strip()# Elimina los espacios al principio y al final
+    p=s.split()   # Divide el string en palabras
+    if not p:    # Si no hay palabras, retorna 0
+        return 0#regresa a 0
+    return len(p[-1])    # Retorna la longitud de la última palabra
+c=str(input("coloca las palabras y el programa leera la longitud de la ultima "));print("")#define como str hace posible asignar un valor separa y da una instruccin
+print(lp(c))  # Salida: 5
