@@ -1,0 +1,17 @@
+import math#importa el math para poder usar valores como pi etc
+# Función para calcular el área de un círculo
+def ca(r):#funcion de "ca(r)"
+    a=math.pi*r**2#realiza la operacion y gracias al math me ahorro el colocar el valir de pi
+    return a#regresa a "a"
+# Función para calcular el volumen de un cilindro utilizando la función anterior
+def cv(r,h):#funcion de "cv(r,h)""
+    ab=ca(r)#añade el valor del area inicial
+    v=ab*h#realiza la operacion
+    return v#regresa a "v"
+# Ejemplo de uso
+r=float(input("coloca el radio "));print("")#define como int hace posible modificarlo separa y indica cuando
+h=float(input("coloca la altura de cilindro "));print("")#define como int hace posible modificarlo separa y indica cuando
+a=ca(r)#añade el valor al area
+v=cv(r,h)#añade el valor a la v
+print(f"El área del círculo con radio {r} es: {a}")#imprime el resultado y gracias a la f coloca las variables en los {}
+print(f"El volumen del cilindro con radio {r} y altura {a} es: {v}")#imprime el resultado y gracias a la f coloca las variables en los {}
