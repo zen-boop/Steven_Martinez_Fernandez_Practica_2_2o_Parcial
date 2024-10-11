@@ -43,3 +43,34 @@ otra que calcule el volumen de un cilindro y utilice  primera función.
 ![image](https://github.com/user-attachments/assets/a3e1fc3c-e202-4757-b01e-0c9bbbae817a)
 
 7- Función que de un string, regrese la longitud de la última palabra. Las palabras tienen separación por uno o más espacios.
+![image](https://github.com/user-attachments/assets/084a3b35-d672-444b-8767-b24746a5635b)
+
+![image](https://github.com/user-attachments/assets/7e5cf84b-26b8-41e9-b80d-8389ce38c579)
+
+8- Definir una función (), que tome tres números como argumentos y devuelva el
+mayor de ellos.
+
+![image](https://github.com/user-attachments/assets/5531ddde-fa0e-4acb-9845-a7c795ab8197)
+
+![image](https://github.com/user-attachments/assets/adaa3211-f962-4136-ac46-73d78760ebad)
+
+9- Escribir una funcion sum() y una función multip() que sumen y multipliquen respectivamente
+todos los números de una lista. Por ejemplo: sum([1,2,3,4]) debería devolver 10 y multip([1,2,3,4])
+debería devolver 24.
+
+![image](https://github.com/user-attachments/assets/b91484ff-431e-4d26-9c42-f63de3997143)
+
+![image](https://github.com/user-attachments/assets/ef01efbf-253d-4314-8a42-e477d70b4319)
+
+10- Escribir una función que tome un carácter y devuelva True si es una vocal, de lo contrario
+devuelve False.
+
+![image](https://github.com/user-attachments/assets/ddc78fdf-62fa-448e-9cae-3f6f6949478c)
+
+![image](https://github.com/user-attachments/assets/c3838ea8-00bd-4f34-b9ba-3939be06aa0d)
+
+11-  Que saque la distancia dirigida entre dos puntos
+
+![image](https://github.com/user-attachments/assets/63dd16ec-77bc-4fec-abee-43ff2bc47211)
+
+![image](https://github.com/user-attachments/assets/ff5a53de-a174-435a-a4ef-18e2a542956f)
