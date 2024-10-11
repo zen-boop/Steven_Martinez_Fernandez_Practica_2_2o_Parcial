@@ -1,0 +1,14 @@
+def ev(e):#funcion de "ev(e)"
+    # Verificar si el email contiene el símbolo @
+    if "@" in e and (".com" in e or ".net" in e or ".org" in e or ".edu" in e or ".gob" in e or ".mil" in e ):#si no tiene @ o alguno de los dominios se realiza lo de abajo
+        return True#mueve el true para validarlo
+    else:#si no se realiza esto
+        return False#mueve el false para negarlo
+def cv():#funcion de "cv"
+    e=input("Introduce tu dirección de email: ");print("")#hace posible modificarlo separa y indica cuando
+    if ev(e):#si en la anterior funcion es true se realiza lo de abajo
+        print("La dirección de email es válida.")#valida el email
+    else:#si es valso realiza lo de abajo
+        print("La dirección de email no es válida. Debe contener el símbolo '@' o la dominio no es valido")#deniega el email
+# Ejemplo de uso
+cv()#el cv()
