@@ -1,0 +1,5 @@
+def ev(c):#funcion de "ev(c)"
+    v="aeiouAEIOU"#define vocales
+    return c in v#regresa la c en la v
+c=str(input("coloca la letra para saber si es vocal "))#define como str hace posible modificarlo y da una instruccion
+print(ev(c))#imprime true o false
